@@ -8,6 +8,15 @@
     * {
         box-sizing: border-box;
     }
+    .box {
+    height: 144px;
+    .column {
+flex-basis: 16.666%;
+box-sizing: border-box;
+padding: 8px;
+}
+
+     }
     .responsive{ background-color: blue;
     }
     .gallery  {
@@ -15,7 +24,7 @@
     
      }
      .gallery img {
-         width: 200%;
+         width: 400%;
          height: auto;
         }
      .responsive{
@@ -23,6 +32,8 @@
          float: left;
          width: 25%;
     }
+    
+}
       @media  screen  (max-width:900px){
     .responsive {
         width: 60%;
@@ -40,7 +51,7 @@
     <h1>Gallery Heading</h1>
      <div class="responsive">
         <div class="gallery"></div>
-     <a href="placegolder-image.png" target="_blank"> <img src="placeholder-image.png" width="400" height="200"></a>
+     <a href="placegolder-image.png" target="_blank" type="img/png"> <img src="placeholder-image.png"   width="400" height="200"></a>
      <div class="des">Image Title</div>
      </div>
 
